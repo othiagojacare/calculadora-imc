@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.banner{
+    height: 100vh;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+
+}
+
+#banner-title{
+    font-size: 100px;
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 5%, rgba(9,9,121,1) 45%, rgba(0,212,255,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#banner-title:hover{
+    font-size: 110px;
+}
