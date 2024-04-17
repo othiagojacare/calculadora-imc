@@ -6,7 +6,7 @@ function calcular(){
 
     if(res <= 18.5){
         alert('Abaixo do peso')
-    }else if ( res <=  24.9){
+    }else if ( res >=  24.9){
         alert('Peso normal')
     }else if(res >= 29.9){
         alert('Sobrepeso')

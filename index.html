@@ -14,10 +14,18 @@
         <div class="banner">
             <h1 id="banner-title">Calculadora IMC</h1>
         </div>
-        <div>
-            <input type="number" id="altura" placeholder="Digite a altura">
-            <input type="number" id="peso" placeholder="Digite o peso">
-            <input type="submit" value="Calcular" onclick="calcular()">
+        <div class="container">
+                <h2>Calcule seu IMC:</h2>
+                <input type="number" id="altura" placeholder="Digite a altura" class="input">
+                <input type="number" id="peso" placeholder="Digite o peso" class="input">
+                <input type="submit" value="Calcular" onclick="calcular()" class="botao">
+        </div>
+        <div class="info-container">
+            <h3>Sobre o IMC</h3>
+            <div class="info">
+                <img src="./guia-imc.webp">
+                <p>Criado no século 19 pelo matemático Lambert Quételet, o Índice de Massa Corporal, conhecido pela sigla IMC, é um cálculo simples que permite medir se alguém está ou não com o peso ideal. Muitas pessoas buscam descobrir seu IMC quando iniciam uma dieta específica ou uma atividade física.</p>
+            </div>
         </div>
     </main>
 
